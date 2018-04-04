@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.WelcomePage">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="7" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="1453" height="938"/>
+    </constraints>
+    <properties/>
+    <border type="bevel-lowered"/>
+    <children>
+      <grid id="eac" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="2" row-span="4" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="800" height="600"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font swing-font="Button.font"/>
+        </properties>
+        <border type="bevel-raised"/>
+        <children>
+          <component id="86320" class="javax.swing.JButton" binding="a0Button" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="ClassGarmnd BT" size="26" style="1"/>
+              <text value="0"/>
+            </properties>
+          </component>
+          <component id="928cb" class="javax.swing.JButton" binding="a6Button" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="ClassGarmnd BT" size="26" style="1"/>
+              <text value="6"/>
+            </properties>
+          </component>
+          <component id="53ce4" class="javax.swing.JButton" binding="a7Button" default-binding="true">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="ClassGarmnd BT" size="26" style="1"/>
+              <text value="7"/>
+            </properties>
+          </component>
+          <component id="fb051" class="javax.swing.JButton" binding="a3Button" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="ClassGarmnd BT" size="26" style="1"/>
+              <text value="3"/>
+            </properties>
+          </component>
+          <component id="2efa5" class="javax.swing.JButton" binding="a4Button" default-binding="true">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="ClassGarmnd BT" size="26" style="1"/>
+              <text value="4"/>
+            </properties>
+          </component>
+          <component id="8caf3" class="javax.swing.JButton" binding="a1Button" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="ClassGarmnd BT" size="26" style="1"/>
+              <text value="1"/>
+            </properties>
+          </component>
+          <component id="f34a9" class="javax.swing.JButton" binding="a2Button" default-binding="true">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="ClassGarmnd BT" size="26" style="1"/>
+              <text value="2"/>
+            </properties>
+          </component>
+          <component id="b81e2" class="javax.swing.JButton" binding="a5Button" default-binding="true">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="ClassGarmnd BT" size="26" style="1"/>
+              <text value="5"/>
+            </properties>
+          </component>
+          <component id="87a52" class="javax.swing.JButton" binding="a8Button" default-binding="true">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="ClassGarmnd BT" size="26" style="1"/>
+              <text value="8"/>
+            </properties>
+          </component>
+          <component id="c1e63" class="javax.swing.JButton" binding="a9Button" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="ClassGarmnd BT" size="26" style="1"/>
+              <text value="9"/>
+            </properties>
+          </component>
+          <component id="f09f9" class="javax.swing.JButton" binding="DELButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="ClassGarmnd BT" size="26" style="1"/>
+              <icon value="icons/Remove.png"/>
+              <text value="DEL"/>
+            </properties>
+          </component>
+          <component id="669c1" class="javax.swing.JButton" binding="OKButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="ClassGarmnd BT" size="26" style="1"/>
+              <icon value="icons/Apply.png"/>
+              <text value="OK"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="486be" class="javax.swing.JLabel" binding="justField">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="ClassGarmnd BT" size="16" style="1"/>
+          <icon value="icons/Computer.png"/>
+          <text value="Employee check-in"/>
+        </properties>
+      </component>
+      <component id="115a" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="24"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="3aabc" class="javax.swing.JLabel" binding="passwordLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="password"/>
+        </properties>
+      </component>
+      <component id="b3c84" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="1" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="24"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="cee2e" class="javax.swing.JButton" binding="exitButton">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="icons/Exit.png"/>
+          <text value="EXIT"/>
+        </properties>
+      </component>
+      <component id="51320" class="javax.swing.JLabel" binding="justLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="ClassGarmnd BT" size="16" style="1"/>
+          <icon value="icons/Boss.png"/>
+          <text value="Database Management "/>
+        </properties>
+      </component>
+      <component id="af22" class="javax.swing.JLabel" binding="loginLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Login"/>
+        </properties>
+      </component>
+      <grid id="8e2d4" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="58479">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="54eca" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+                <constraints/>
+                <properties>
+                  <font name="Cambria Math" size="16" style="1"/>
+                  <toolTipText value="login code"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="6a31e" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="61fe0" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="ClassGarmnd BT" size="16" style="1"/>
+              <horizontalAlignment value="10"/>
+              <icon value="icons/People.png"/>
+              <text value="Employees currently at work"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="6d115" class="javax.swing.JButton" binding="loginButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="icons/OK.png"/>
+          <text value="Sign up"/>
+        </properties>
+      </component>
+      <grid id="2068c" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="77fa4">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="ea229" class="javax.swing.JTable" binding="logTable">
+                <constraints/>
+                <properties>
+                  <cellSelectionEnabled value="true"/>
+                  <enabled value="true"/>
+                  <focusCycleRoot value="false"/>
+                  <focusable value="false"/>
+                  <font name="Berlin Sans FB" size="14" style="0"/>
+                  <foreground color="-11378501"/>
+                  <selectionBackground color="-15225000"/>
+                  <selectionForeground color="-131587"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <hspacer id="6c773">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>

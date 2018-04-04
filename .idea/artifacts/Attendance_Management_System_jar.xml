@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact name="Attendance Management System:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Attendance_Management_System_jar</output-path>
+    <root id="root">
+      <element id="archive" name="Attendance Management System.jar">
+        <element id="module-output" name="Attendance Management System" />
+      </element>
+      <element id="library" level="project" name="lib" />
+      <element id="library" level="project" name="jcalendar-1.4" />
+      <element id="library" level="project" name="jlfgr-1_0" />
+      <element id="library" level="project" name="JGoodies Forms" />
+      <element id="library" level="project" name="jgoodies-common-1.2.0" />
+      <element id="library" level="project" name="drivers" />
+      <element id="library" level="project" name="poi-3.15" />
+      <element id="library" level="project" name="junit-4.6" />
+      <element id="library" level="project" name="jdatepicker-1.3.4" />
+      <element id="library" level="project" name="jgoodies-looks-2.4.1" />
+    </root>
+  </artifact>
+</component>

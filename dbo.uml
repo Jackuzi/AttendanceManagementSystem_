@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>c01eea0d-dbcd-4c28-90fd-9a17f6810da6.SCHEMA:Organisation_Management_System.dbo</OriginalElement>
+  <nodes>
+    <node x="548.0" y="-22.0">c01eea0d-dbcd-4c28-90fd-9a17f6810da6.TABLE:Organisation_Management_System.dbo.tblCar</node>
+    <node x="-351.5" y="-37.0">c01eea0d-dbcd-4c28-90fd-9a17f6810da6.TABLE:Organisation_Management_System.dbo.tblGroups</node>
+    <node x="-376.0" y="139.0">c01eea0d-dbcd-4c28-90fd-9a17f6810da6.TABLE:Organisation_Management_System.dbo.tblPosition</node>
+    <node x="413.25" y="549.0">c01eea0d-dbcd-4c28-90fd-9a17f6810da6.TABLE:Organisation_Management_System.dbo.tblRegister</node>
+    <node x="89.25" y="292.0">c01eea0d-dbcd-4c28-90fd-9a17f6810da6.TABLE:Organisation_Management_System.dbo.tblEmployee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="c01eea0d-dbcd-4c28-90fd-9a17f6810da6.TABLE:Organisation_Management_System.dbo.tblEmployee" target="c01eea0d-dbcd-4c28-90fd-9a17f6810da6.TABLE:Organisation_Management_System.dbo.tblPosition">
+      <point x="-64.5" y="-92.0" />
+      <point x="153.75" y="267.0" />
+      <point x="107.5" y="267.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="c01eea0d-dbcd-4c28-90fd-9a17f6810da6.TABLE:Organisation_Management_System.dbo.tblRegister" target="c01eea0d-dbcd-4c28-90fd-9a17f6810da6.TABLE:Organisation_Management_System.dbo.tblEmployee">
+      <point x="0.0" y="-92.0" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="c01eea0d-dbcd-4c28-90fd-9a17f6810da6.TABLE:Organisation_Management_System.dbo.tblEmployee" target="c01eea0d-dbcd-4c28-90fd-9a17f6810da6.TABLE:Organisation_Management_System.dbo.tblCar">
+      <point x="64.5" y="-92.0" />
+      <point x="282.75" y="267.0" />
+      <point x="336.0" y="243.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="c01eea0d-dbcd-4c28-90fd-9a17f6810da6.TABLE:Organisation_Management_System.dbo.tblPosition" target="c01eea0d-dbcd-4c28-90fd-9a17f6810da6.TABLE:Organisation_Management_System.dbo.tblGroups">
+      <point x="0.0" y="-59.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="212.0" y="355.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
